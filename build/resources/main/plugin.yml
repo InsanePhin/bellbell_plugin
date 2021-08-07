@@ -13,6 +13,7 @@ commands:
     usage: /spawn, /넴주, /sp
     aliases: [넴주, sp]
 
-  b:
+  back:
     description: Teleport before death
-    usage: /b
+    usage: b, back
+    aliases: [b]
