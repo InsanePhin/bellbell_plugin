@@ -1,12 +1,12 @@
 package com.insanephin.bellbellplugin;
 
-import org.bukkit.Material;
+import org.bukkit.ChatColor;
+import org.bukkit.Color;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
 public class SpawnCommand implements CommandExecutor {
     @Override
@@ -16,11 +16,11 @@ public class SpawnCommand implements CommandExecutor {
 
             player.teleport(player.getBedSpawnLocation());
 
-            player.sendMessage("Complete");
+            player.sendMessage(ChatColor.GREEN+"여기가 너의 스폰지역이야.");
             return true;
         }
         else if(sender instanceof ConsoleCommandSender) {
-            sender.sendMessage("You don't use this command in console");
+            sender.sendMessage(Color.RED+"You can't use this command in console");
             return false;
         }
         return false;
