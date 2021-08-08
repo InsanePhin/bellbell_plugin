@@ -1,10 +1,10 @@
-package com.insanephin.bellbellplugin;
+package com.insanephin.Bellbellplugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.awt.*;
 
-public class bellbellplugin extends JavaPlugin {
+public class Bellbellplugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
@@ -15,7 +15,6 @@ public class bellbellplugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new BackCommand(), this);
 
         getServer().dispatchCommand(getServer().getConsoleSender(), "gamerule showDeathMessages false");
-
         getLogger().info(Color.GREEN+"벨벨플러그인 [활성화]");
     }
 
