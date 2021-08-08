@@ -1,4 +1,4 @@
-package com.insanephin.Bellbellplugin;
+package com.insanephin.bellbellplugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
