@@ -2,7 +2,6 @@
 
 > 해당 프로젝트는 자바를 하고싶어서 무작정 하게된 "에라 모르겠다 그냥 만들자" 프로젝트입니다.
 
-
 ## 버전정보
 ```
 Java Version : 16
@@ -10,7 +9,6 @@ Minecraft Verision : 1.17.1
 Spigot-API Version : 1.17.1-R0.1-SNAPSHOT
 Plugin Version : 0.1.2
 ```
-
 
 ## 명령어
 - /spawn
@@ -28,4 +26,3 @@ Plugin Version : 0.1.2
 죽기 전 마지막 위치로 이동
 경고) 죽은 기록이 없는 상태에서 명령어를 치면 3초후 사살
 ```
-
