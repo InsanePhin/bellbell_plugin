@@ -1,6 +1,6 @@
 # BellBell Plugin [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b8b519e07b494434b7d51ee6a7981a17)](https://app.codacy.com/gh/InsanePhin/bellbell_plugin?utm_source=github.com&utm_medium=referral&utm_content=InsanePhin/bellbell_plugin&utm_campaign=Badge_Grade_Settings)
 
-> 해당 프로젝트는 자바를 하고싶어서 무작정 하게된 "에라 모르겠다 그냥 만들자" 프로젝트입니다.
+> 자바를 배우기 위해 시작한 프로젝트
 
 ## 버전정보
 ```
