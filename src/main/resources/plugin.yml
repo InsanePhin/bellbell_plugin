@@ -5,8 +5,8 @@ main: com.insanephin.Bellbellplugin.Bellbellplugin
 commands:
   tools:
     description: Add iron set in your inventory
-    usage: /t, /tools, /ㅌ
-    aliases: [t, ㅌ]
+    usage: /t, /tools
+    aliases: [t]
 
   spawn:
     description: Teleport your bed location
