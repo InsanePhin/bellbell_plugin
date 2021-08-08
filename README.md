@@ -11,7 +11,7 @@ Plugin Version : 0.1.2
 ```
 
 ## 명령어
-- /spawn
+- /spawn, /sp, /넴주
 ```
 침대 또는 스폰으로 이동
 ```
