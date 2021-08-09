@@ -1,3 +1,4 @@
+# Security Policy
 | Version | Supported          |
 | ------- | ------------------ |
 | 0.1.2   | :x: |
