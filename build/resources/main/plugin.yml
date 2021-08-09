@@ -5,27 +5,21 @@ main: com.insanephin.bellbellplugin.bellbellplugin
 commands:
   tools:
     description: Add iron set in your inventory
-    usage: /t, /tools, /ㅌ
     aliases: [t, ㅌ]
 
   spawn:
     description: Teleport your bed location
-    usage: /spawn, /넴주, /sp
     aliases: [넴주, sp]
 
   back:
     description: Teleport before death
-    usage: b, back
     aliases: [b]
 
   tpa:
     description: Teleport user
-    usage: tpa
 
   tpaccept:
     description: Teleport request accept
-    usage: tpaccept
 
   tpadeny:
     description: Teleport request deny
-    usage: tpadeny

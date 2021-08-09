@@ -14,9 +14,9 @@ public class TpacceptCommand implements CommandExecutor, Listener {
         Player target = (Player) sender;
 
         if (TpaCommand.tpa.containsKey(target)) {
-            target.sendMessage(ChatColor.AQUA + target.getName() + ChatColor.GREEN + "님이 당신의 요청을 수락했어요. TP해드릴게요.");
-
             Player requester = (Player) TpaCommand.tpa.get(target);
+
+            requester.sendMessage(ChatColor.AQUA + target.getName() + ChatColor.GREEN + "님이 당신의 요청을 수락했어요. TP해드릴게요.");
 
             requester.teleport(target.getLocation());
 
