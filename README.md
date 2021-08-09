@@ -32,12 +32,12 @@ Plugin Version : 0.1.2
 player에게 TP요청
 ```
 
-- /tpaccept
+ * /tpaccept
 ```
 TP요청 수락
 ```
 
-- /tpadeny
+ * /tpadeny
 ```
 TP요청 거부
 ```
