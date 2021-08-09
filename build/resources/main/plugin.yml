@@ -1,5 +1,5 @@
 name: bellbellplugin
-version: 0.1.2
+version: 0.1.5
 main: com.insanephin.bellbellplugin.bellbellplugin
 
 commands:
@@ -17,3 +17,15 @@ commands:
     description: Teleport before death
     usage: b, back
     aliases: [b]
+
+  tpa:
+    description: Teleport user
+    usage: tpa
+
+  tpaccept:
+    description: Teleport request accept
+    usage: tpaccept
+
+  tpadeny:
+    description: Teleport request deny
+    usage: tpadeny
