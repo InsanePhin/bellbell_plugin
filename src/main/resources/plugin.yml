@@ -1,19 +1,25 @@
-name: Bellbellplugin
-version: 0.1.2
-main: com.insanephin.Bellbellplugin.Bellbellplugin
+name: bellbellplugin
+version: 0.1.5
+main: com.insanephin.bellbellplugin.bellbellplugin
 
 commands:
   tools:
     description: Add iron set in your inventory
-    usage: /t, /tools
-    aliases: [t]
+    aliases: [t, ㅌ]
 
   spawn:
     description: Teleport your bed location
-    usage: /spawn, /넴주, /sp
     aliases: [넴주, sp]
 
   back:
     description: Teleport before death
-    usage: b, back
     aliases: [b]
+
+  tpa:
+    description: Teleport user
+
+  tpaccept:
+    description: Teleport request accept
+
+  tpadeny:
+    description: Teleport request deny
