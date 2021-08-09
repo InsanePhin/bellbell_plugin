@@ -34,12 +34,19 @@ public class BackCommand implements CommandExecutor, Listener {
             if (back.containsKey(player)) {
                 player.teleport(back.get(player));
                 back.remove(player);
-                player.sendMessage(ChatColor.GREEN+"죽었던 곳으로 보내줄게.");
+                player.sendMessage(ChatColor.GREEN+"죽기전 위치로 이동하였습니다.");
             }
             else {
-                player.sendMessage(ChatColor.RED+"죽고나면 명령어를 사용할 수 있을거야. 3초뒤에 죽여줄게.");
+                player.sendMessage(ChatColor.RED+"죽은 뒤 명령어를 사용하실 수 있습니다.");
                 try {
-                    Thread.sleep(3000);
+                    Thread.sleep(1000);
+                    player.sendMessage(ChatColor.GOLD +"3");
+
+                    Thread.sleep(1000);
+                    player.sendMessage(ChatColor.YELLOW +"2");
+
+                    Thread.sleep(1000);
+                    player.sendMessage(ChatColor.DARK_GREEN +"1");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
