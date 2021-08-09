@@ -4,7 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.awt.*;
 
-public class bellbellplugin extends JavaPlugin {
+public class Bellbellplugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
