@@ -27,7 +27,7 @@ public class ToolsCommand implements CommandExecutor {
 
             player.getInventory().addItem(sword, pickaxe, axe);
 
-            player.sendMessage(ChatColor.GREEN+"너에게 내구성1짜리 돌셋을 줄게.");
+            player.sendMessage(ChatColor.GREEN+"돌셋을 인벤토리에 추가하였습니다.");
             return true;
         }
         else if(sender instanceof ConsoleCommandSender) {
