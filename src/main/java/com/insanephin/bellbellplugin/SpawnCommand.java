@@ -16,7 +16,7 @@ public class SpawnCommand implements CommandExecutor {
 
             player.teleport(player.getBedSpawnLocation());
 
-            player.sendMessage(ChatColor.GREEN+"여기가 너의 스폰지역이야.");
+            player.sendMessage(ChatColor.MAGIC+"여기가 너의 스폰지역이야.");
             return true;
         }
         else if(sender instanceof ConsoleCommandSender) {
