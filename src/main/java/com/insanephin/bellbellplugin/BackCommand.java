@@ -23,7 +23,7 @@ public class BackCommand implements CommandExecutor, Listener {
         Player player = event.getEntity();
         back.put(player, player.getLocation());
 
-        event.setDeathMessage(ChatColor.RED+"누가 죽었다.");
+        event.setDeathMessage(ChatColor.RED+"누가 죽었다. 위치 : "+player.getLocation());
     }
 
     @Override
