@@ -1,6 +1,6 @@
 name: bellbellplugin
 version: 0.1.5
-main: com.insanephin.bellbellplugin.bellbellplugin
+main: com.insanephin.bellbellplugin.Bellbellplugin
 
 commands:
   tools:
