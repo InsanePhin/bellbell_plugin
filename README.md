@@ -9,35 +9,3 @@ Minecraft Verision : 1.17.1
 Spigot-API Version : 1.17.1-R0.1-SNAPSHOT
 Plugin Version : 0.1.2
 ```
-
-## 명령어
-- /spawn, /sp, /넴주
-```
-스폰포인트로 이동
-```
-
-- /back, /b
-```
-죽기 전 마지막 위치로 이동
-경고) 죽은 기록이 없는 상태에서 명령어를 치면 3초 후 사살
-```
-#
-- /tools, /t
-```
-[내구성I]이(가) 적용된 [돌검, 돌곡, 돌도끼]를 인벤토리에 추가
-```
-#
-- /tpa player
-```
-player에게 TP요청
-```
-
- * /tpaccept
-```
-TP요청 수락
-```
-
- * /tpadeny
-```
-TP요청 거부
-```
